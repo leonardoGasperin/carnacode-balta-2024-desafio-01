@@ -38,11 +38,11 @@
 
 <script>
     function checking() {
-    var nome = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var senha = document.getElementById("senha").value;
-    var confirmarSenha = document.getElementById("senha2").value;
-    var notRobot = document.getElementById("notRobot").checked;
+    let nome = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let senha = document.getElementById("senha").value;
+    let confirmarSenha = document.getElementById("senha2").value;
+    let notRobot = document.getElementById("notRobot").checked;
 
     if (nome.trim() === "" || email.trim() === "" || senha.trim() === "" || !notRobot) {
         alert("Por favor, preencha todos os campos.");
